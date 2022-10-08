@@ -3,11 +3,11 @@ using MvcStartApp.Models.Db;
 
 namespace MvcStartApp.Controllers
 {
-    public class LogsController : Controller
+    public class LogController : Controller
     {
         private readonly ILogRepository _repo;
 
-        public LogsController(ILogRepository repo)
+        public LogController(ILogRepository repo)
         {
             _repo = repo;
         }
